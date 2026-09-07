@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# The large companion data archive -- never committed, downloaded per instructor_notes/
+zenodo_data/
+
+# Auto-managed caches created on first run (plate models, gplately's own cache)
+data/pmm_cache/
+gplately_data/
+**/zircon_panel_cache/
+**/*_cache/
+
+# AI assistant working files (not part of the teaching material)
+CLAUDE.md
+.claude/
