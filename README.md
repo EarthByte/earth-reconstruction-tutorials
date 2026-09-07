@@ -1,9 +1,17 @@
 # Earth Evolution — Spatio-Temporal Data and Model Analysis
 
+[![Environment](https://img.shields.io/badge/environment-conda--forge-44A833?logo=anaconda&logoColor=white)](environment.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](environment.yml)
+[![License: MIT](https://img.shields.io/badge/license%20(new%20material)-MIT-blue.svg)](LICENSE)
+[![License: BSD-3-Clause](https://img.shields.io/badge/license%20(notebooks%20%26%20data)-BSD--3--Clause-blue.svg)](LICENSE-NOTEBOOKS)
+
 A standalone Honours (4th-year) module. 3 credit points (approximately 25 contact hours), 10
 sessions. You build and interrogate real plate-tectonic reconstructions with
 [GPlately](https://github.com/GPlates/gplately) and [pyGMT](https://www.pygmt.org/), working
 from a curated set of real, published research notebooks rather than toy examples.
+
+> **Quick start:** `conda env create -f environment.yml && conda activate gplately-pygmt && jupyter lab`
+> — see **Running the notebooks** below for details and a `mamba` alternative.
 
 Every notebook follows the same pattern: a **`# === USER CONFIGURATION ===`** cell near the top
 marks the handful of things you're meant to change (a model, a time, a region, a threshold),
